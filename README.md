@@ -1,4 +1,8 @@
-This is Nikhil Hulle, applying for the post of software dev 
+This is Nikhil Hulle, applying for the post of software dev, i am really excited to prove my worth and it would be an honor to work for such a bright company, i personally am a big fan of the app as this app for me is the sole providesrme of daily news and updates .
+
+I love he idea of the news reporting style and through my contribution, i wish to add more worth to your product.
+
+
 i have finished the task except setting up the swagger docs, i was finding it a little challenging to set it up, but i have attempted to write documentation in the each files for the ease of understanding......
 
 I have currently not uploaded this to heroku, and will update this readme if i do it, other than that i have completed all the requirements to the best of my ability as i had to learn everything from scratch since i am a fresher.
@@ -27,5 +31,7 @@ API_CovidSTATS takes the inputs in the form of coordinates as shown in the examp
 
 
 
+NAME : NIKHIL HULLE
+Email : nikhil.hulle@gmail.com
 
 
