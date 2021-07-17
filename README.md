@@ -1,6 +1,6 @@
 This is Nikhil Hulle, applying for the post of software dev, i am really excited to prove my worth and it would be an honor to work for such a bright company, i personally am a big fan of the app as this app for me is the sole providesrme of daily news and updates .
 
-I love he idea of the news reporting style and through my contribution, i wish to add more worth to your product.
+I love the idea of the news reporting style and through my contribution, i wish to add more worth to your product.
 
 
 i have finished the task except setting up the swagger docs, i was finding it a little challenging to set it up, but i have attempted to write documentation in the each files for the ease of understanding......
