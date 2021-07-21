@@ -17,7 +17,7 @@ import (
 )
 
 // global variables
-var state string
+var state, processedString string
 var total, discharged, deaths int
 
 // This function makes a get request call to https://api.rootnet.in/covid19-in/stats/latest and consequently stores the data in the mongodb database.
@@ -129,6 +129,11 @@ func AddInDB() {
 			if key1 == "loc" {
 
 				state = string(value1.(string))
+				reg, err := regexp.Compile("[^a-zA-Z0-9]+")
+				if err != nil {
+					log.Fatal(err)
+				}
+				processedString = reg.ReplaceAllString(state, "")
 
 			}
 
@@ -136,7 +141,7 @@ func AddInDB() {
 		}
 		note := Structs.Note{}
 		note.ID = primitive.NewObjectID()
-		note.Loc = state
+		note.Loc = processedString
 		note.Total = total
 		note.Deaths = deaths
 		note.Discharged = discharged
